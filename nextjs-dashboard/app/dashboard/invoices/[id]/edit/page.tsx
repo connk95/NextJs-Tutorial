@@ -11,7 +11,6 @@ export default async function Page(props: { params: Promise<{ id: string }> }) {
     ])
   return (
     <main> 
-      {/* can't use main? */}
       <Breadcrumbs
         breadcrumbs={[
           { label: 'Invoices', href: '/dashboard/invoices' },
